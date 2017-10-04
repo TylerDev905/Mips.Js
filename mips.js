@@ -9598,24 +9598,4 @@ $(document).ready(function(){
             }
         };
     }
-        var mips = new Mips();
-        //console.log(mips.assemble(new Hex("0462002a")));
-        //console.log(mips.assemble(new Hex("0000008d")));
-        //console.log(mips.assemble(new Hex("42000018")));
-        //console.log(mips.assemble(new Hex("0c080004")));
-        //console.log(mips.assemble(new Hex("000840c0")));
-        //console.log(mips.assemble(new Hex("0462002a")));
-        //console.log(mips.assemble(new Hex("0000008d")));
-        //console.log(mips.disassemble("break (00002)"));
-        //console.log(mips.disassemble("addiu a0, a0, $0001"));
-        //console.log(mips.disassemble("sll, t0, t0, 3"));
-        //console.log(mips.disassemble("beq zero, zero, $0002"));
-        //console.log(mips.disassemble("jal $00200008"));
-        console.log(mips.disassemble("lw s0, $0008(s0)"));
-        console.log(mips.disassemble("addiu a0, a0, $0001"));
-        console.log(mips.disassemble("break (00002)"));
-        console.log(mips.disassemble("jr ra"));
-        console.log(mips.disassemble("jal $00200008"));
-        console.log(mips.disassemble("beq t0, a0, $FFFF"));
-        console.log(mips.disassemble("sll t0, t0, 4"));
 });
