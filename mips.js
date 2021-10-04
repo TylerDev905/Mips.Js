@@ -1,3 +1,5 @@
+// JQuery is needed
+
 $(document).ready(function(){
 
     Array.prototype.contains = function(string){
